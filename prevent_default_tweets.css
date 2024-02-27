@@ -1,0 +1,42 @@
+img {
+    width: 90%;
+    padding: 5%;
+}
+
+.outer {
+    display: flex;
+    margin-bottom: 3em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    background-color: rgba(18, 212, 255, 0.582);
+}
+
+.post {
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 0;
+}
+
+div {
+    padding: 2%;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+body {
+    display: flex;
+    background: center/cover url("https://images.unsplash.com/photo-1533158326339-7f3cf2404354?q=80&w=1968&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        );
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    margin-right: 50%;
+}
